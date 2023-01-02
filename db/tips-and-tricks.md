@@ -1,0 +1,1 @@
+* Disabling auto-commit mode should always be done when executing a batch of updates. Otherwise, the result of the updates depends on the behavior of the JDBC driver: it may or may not commit the successful statements.`
